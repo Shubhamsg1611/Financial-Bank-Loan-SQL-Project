@@ -174,10 +174,3 @@ SELECT grade, verification_status, COUNT(*) AS total_loans,
 FROM loan_data
 GROUP BY grade, verification_status
 ORDER BY default_rate DESC;
-
-
-
-
-
-
-
